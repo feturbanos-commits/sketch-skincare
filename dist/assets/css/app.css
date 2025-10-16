@@ -12,6 +12,45 @@
     margin: 0 auto;
   }
 }
+.promo-banner.callout.primary {
+  margin-bottom: 0;
+  padding: 6px 10px;
+  border: none;
+  background-color: #FFBA00;
+  font-family: roboto;
+}
+.promo-banner.callout.primary p {
+  font-size: 12px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.site-header.callout {
+  margin-bottom: 0;
+  padding: 5px 29px 5px 18px;
+  border: none;
+  border-bottom: 2px solid #1D3C34;
+}
+.site-header.callout .site-logo {
+  margin-left: 10px;
+}
+.site-header.callout .get-started-btn {
+  margin-bottom: 0;
+  padding: 12px 48px;
+  border-radius: 35px;
+  background-color: #222430;
+  text-transform: uppercase;
+}
+.site-header.callout .cart-icon {
+  margin-left: 23px;
+}
+.site-header.callout .cart-icon img {
+  width: 36.52px;
+}
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;

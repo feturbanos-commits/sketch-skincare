@@ -1,0 +1,43 @@
+.promo-banner.callout.primary {
+    margin-bottom: 0;
+    padding: 6px 10px;
+    border: none;
+    background-color: $color-selective-yellow;
+    font-family: roboto;
+
+    p {
+        font-size: 12px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 700;
+        line-height: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+}
+
+.site-header.callout {
+    margin-bottom: 0;
+    padding: 5px 29px 5px 18px;
+    border: none;
+    border-bottom: 2px solid $color-charcoal-green;
+
+    .site-logo {
+        margin-left: 10px;
+    }
+
+    .get-started-btn {
+        margin-bottom: 0;
+        padding: 12px 48px;
+        border-radius: 35px;
+        background-color: $color-charade;
+        text-transform: uppercase;
+    }
+
+    .cart-icon {
+        margin-left: 23px;
+
+        img {
+            width: 36.52px;
+        }  
+    }
+}
